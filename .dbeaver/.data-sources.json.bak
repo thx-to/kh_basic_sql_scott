@@ -21,6 +21,48 @@
 				},
 				"auth-model": "oracle_native"
 			}
+		},
+		"oracle_thin-192ae347419-7dd0cb91243aae9": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "SCOTT",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "XE",
+				"url": "jdbc:oracle:thin:@//localhost:1521/XE",
+				"configurationType": "MANUAL",
+				"home": "C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			}
+		},
+		"oracle_thin-192b3363376-58d5ce72c6028a48": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "localhost 2",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "XE",
+				"url": "jdbc:oracle:thin:@//localhost:1521/XE",
+				"configurationType": "MANUAL",
+				"home": "C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			}
 		}
 	},
 	"connection-types": {
